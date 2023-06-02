@@ -102,7 +102,7 @@
 }
 
 .nav__category-item:hover .nav__category-item-title {
-    color: #ffb416;
+    color: var(--yellow-color);
 
 }
 
@@ -139,7 +139,7 @@
 }
 
 .list__category-heading-more:hover {
-    color: #ffb416;
+    color: var(--yellow-color);
 }
 
 /* Product */
@@ -363,7 +363,7 @@ i.list__category-item__like-icon-fill {
 }
 
 .policy__header-home:hover a{
-    color: #ffb416;
+    color: var(--yellow-color);
 }
 
 .policy__header-slash {
@@ -373,7 +373,7 @@ i.list__category-item__like-icon-fill {
 
 .policy__header-name {
     font-size: 1.4rem;
-    color: #ffb416;
+    color: var(--yellow-color);
     font-weight: 300;
     padding-left: 12px;
 }
