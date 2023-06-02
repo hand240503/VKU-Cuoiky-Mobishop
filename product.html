@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/new-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Mobishop-Product</title>
+</head>
+
+<body>
+    <div class="root">
+        <header class="header">
+            <div class="grid">
+                <div class="row">
+                    <div class="col-xl-3 header__logo-wrap">
+                        <a href="index.html" class="header__logo-link">
+                            <img src="./assets/img/new-logo.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="header__search col-xl-7">
+                        <div class="header__search-input-wrap">
+                            <input type="text" placeholder="Tìm kiếm sản phẩm..." class="header__search-input-field">
+                            <i class="fa-solid fa-magnifying-glass header__search-input-icon"></i>
+                        </div>
+                        <div class="header__search-contact-wrap">
+                            <div class="header__search-contact-phone">
+                                <img src="./assets/img/call.png" alt="" class="header__search-contact-img">
+                            </div>
+                            <div class="header__search-contact-info">
+                                <span class="header__search-contact-title">Tổng đài hỗ trợ/ Hotline</span>
+                                <h4 class="header__contact-phone">0334 898 666</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__user-info col-xl-2">
+                        <div class="header__user-wrap">
+                            <img src="./assets/img/user.png" alt="">
+                            <div class="user__info-wrap">
+                                <span class="header__user-title">Xin chào!</span>
+                                <h4 class="header__user-logout">Đăng Xuất</h4>
+                            </div>
+                            <div class="header__cart-wrap">
+                                <img src="./assets/img/shopping-bag.png" alt="" class="header__cart-img">
+                                <span class="header__cart-notice">0</span>
+                                <div class="header__cart-notice--cart">
+                                    <img src="./assets/img/shopping-bag.png" alt="">
+                                    <p class="header__cart-notice-des">Không có sản phẩm nào trong giỏ hàng của bạn</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <nav class="header__nav">
+            <div class="grid">
+                <div class="header__nav-wrap d-flex">
+                    <div class="header__nav-menu-title">
+                        <span class="nav__menu-title">Danh mục sản phẩm</span>
+                        <ul class="header___menu-title-list">
+                            <li class="header___menu-title-item">
+                                <div class="header__menu-title-item-wrap">
+                                    <img src="./assets/img/laptop.jpg" alt="" class="header___menu-item-img">
+                                    <span class="header___menu-item-name">Máy tính sách tay</span>
+                                </div>
+                                <i class="fa-solid fa-angle-right header___menu-item-icon "></i>
+                            </li>
+                            <li class="header___menu-title-item">
+                                <div class="header__menu-title-item-wrap">
+                                    <img src="./assets/img/phone.jpg" alt="" class="header___menu-item-img">
+                                    <span class="header___menu-item-name">Điện thoại đi động</span>
+                                </div>
+                                <i class="fa-solid fa-angle-right header___menu-item-icon "></i>
+                            </li>
+                            <li class="header___menu-title-item">
+                                <div class="header__menu-title-item-wrap">
+                                    <img src="./assets/img/ipad.jpg" alt="" class="header___menu-item-img">
+                                    <span class="header___menu-item-name">Máy tính bảng</span>
+                                </div>
+                                <i class="fa-solid fa-angle-right header___menu-item-icon "></i>
+                            </li>
+                            <li class="header___menu-title-item">
+                                <div class="header__menu-title-item-wrap">
+                                    <img src="./assets/img/dongho.jpg" alt="" class="header___menu-item-img">
+                                    <span class="header___menu-item-name">Đồng hồ thông minh</span>
+                                </div>
+                                <i class="fa-solid fa-angle-right header___menu-item-icon "></i>
+                            </li>
+                            <li class="header___menu-title-item">
+                                <div class="header__menu-title-item-wrap">
+                                    <img src="./assets/img/card.jpg" alt="" class="header___menu-item-img">
+                                    <span class="header___menu-item-name">Linh Kiện Máy Tính</span>
+                                </div>
+                                <i class="fa-solid fa-angle-right header___menu-item-icon "></i>
+                            </li>
+                            <li class="header___menu-title-item">
+                                <div class="header__menu-title-item-wrap">
+                                    <img src="./assets/img/phukien.jpg" alt="" class="header___menu-item-img">
+                                    <span class="header___menu-item-name">Phụ kiện đi kèm</span>
+                                </div>
+                                <i class="fa-solid fa-angle-right header___menu-item-icon "></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="index.html" class="header__nav-item-link">Trang
+                                chủ</a>
+                        </li>
+                        <!-- <li class="header__nav-item">
+                            <a href="" class="header__nav-item-link">Giới thiệu</a>
+                        </li> -->
+                        <li class="header__nav-item">
+                            <a href="product.html" class="header__nav-item-link  header__nav-item-link-active">Sản
+                                Phẩm</a>
+                            <i class="fa-solid fa-caret-down header__nav-item-icon"></i>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-item-link">Kiến thức & Phần mềm</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="policy.html" class="header__nav-item-link">Chính sách bảo hành</a>
+                        </li>
+                        <!-- <li class="header__nav-item">
+                            <a href="" class="header__nav-item-link">Tuyển dụng</a>
+                        </li> -->
+                        <li class="header__nav-item">
+                            <a href="contact.html" class="header__nav-item-link">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div class="content">
+            <div class="grid">
+                <span class="page__link">
+                    <a href="index.html" class="page__link-home">Trang chủ</a>
+                    <span>/</span>
+                    <span class="all-product">Tất cả sản phẩm</span>
+                </span>
+
+                <div class="row">
+                    <div class="col-xl-2">
+                        <div class="menu__list-product-wrap">
+                            <div class="menu__list-product--heading">
+                                <i class="fa-solid fa-bars menu__list-product-icon"></i>
+                                <p class="menu__list-product-title">Danh mục sản phẩm</p>
+                            </div>
+                            <ul class="list__product">
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Laptop </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Điện thoại </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Máy tính bảng </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Đồng hồ thông minh </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Linh kiện máy tính </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Đồng thông minh </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Máy tính - PC </a>
+                                </li>
+                                <li class="list__product-item ">
+                                    <a class="list__product-item-link" href=""> Phụ kiện máy tính </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 ">
+                        <div class="row">
+                            <div class="filter__product">
+                                <ul class="filter__product-list">
+                                    <li class="filter__product-item">
+                                        <a href="" class="filter__product-item--link">Tên A - Z</a>
+                                    </li>
+                                    <li class="filter__product-item">
+                                        <a href="" class="filter__product-item--link">Tên Z - A</a>
+                                    </li>
+                                    <li class="filter__product-item">
+                                        <a href="" class="filter__product-item--link">Giá từ thấp đến cao</a>
+                                    </li>
+                                    <li class="filter__product-item">
+                                        <a href="" class="filter__product-item--link">Giá từ cao đến thấp</a>
+                                    </li>
+                                    <li class="filter__product-item">
+                                        <a href="" class="filter__product-item--link">Giá mới nhất</a>
+                                    </li>
+                                    <li class="filter__product-item">
+                                        <a href="" class="filter__product-item--link">Giá cũ nhất</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row main-product">
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/iphone.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/iphone.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/iphone.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/iphone.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/iphone.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row main-product">
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/dongho.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/dongho.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/dongho.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/dongho.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/dongho.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row main-product">
+                            <div class="col-xl-10-2">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/pc.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/pc.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/pc.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/pc.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/pc.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row main-product product__list-item--end">
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/asus.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/asus.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/asus.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/asus.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-10-2 ">
+                                <div class="list__category-item">
+                                    <div class="list__category-item-img"
+                                        style="background-image: url('./assets/img/asus.jpg');"> </div>
+                                    <h4 class="list__category-item__name">Laptop Asus Gaming ROG Strix G15 G513IH R7
+                                        4800H/8GB/512GB/4GB GTX1650/144Hz/Win11 (HN015W)</h4>
+                                    <div class="list__category-item__price">
+                                        <span class="list__category-item__price-current">999.000</span>
+                                        <span class="list__category-item__price-old">1.200.000</span>
+                                    </div>
+                                    <div class="list__category-item__action">
+                                        <span class="list__category-item__like list__category-item__like--liked">
+                                            <i class="fa-regular fa-heart list__category-item__like-icon-empty"></i>
+                                            <i class="fa-solid fa-heart list__category-item__like-icon-fill"></i>
+                                        </span>
+                                        <div class="list__category-item__rating">
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                            <i class="fa-solid fa-star list__category-item__start--gold"></i>
+                                        </div>
+                                        <span class="list__category-item__sold">88 đã bán</span>
+                                    </div>
+                                    <div class="list__category-item__origin">
+                                        <span class="list__category-item__brand">ASUS</span>
+                                        <span class="list__category-item__origin-name">Nhật Bản</span>
+                                    </div>
+                                    <div class="list__category-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="list__category-item__sale-off">
+                                        <span class="list__category-item__sale-off-percent">20% </span>
+                                        <span class="list__category-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="footer__title-menu">
+                            <span>MOBI SHOP</span>
+                        </div>
+                        <ul class="footer__list-info">
+                            <li class="footer__list-item">Copyright@ 2023 Mobi shop</li>
+                            <li class="footer__list-item">Chứng nhận ĐKKD 1111111111 do sở KH & ĐT TP.Đà Nẵng cấp</li>
+                            <li class="footer__list-item">Địa chỉ: Số 06, Thanh lương 9,Hòa Xuân,Cẩm Lệ,TP.Đà Nẵng</li>
+                            <li class="footer__list-item">Điện thoại: <a href="">0388 529 096</a> - Email: <a
+                                    href="">hand.22itb061@vku.udn.vn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer__title-menu">
+                            <span>THEO DÕI CHÚNG TÔI</span>
+                        </div>
+                        <ul class="footer__list-page">
+                            <li class="footer__list-item">
+                                <a href="index.html">Trang chủ</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">Sản phẩm</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">Kiến thức & Phần mềm</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="policy.html">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="">Liên hệ</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="footer__title-menu">
+                            <span>NHẬN TIN KHUYẾN MÃI</span>
+                        </div>
+                        <div class="footer__input-group">
+                            <input type="text" class="input__control" placeholder="Nhập email của bạn">
+                            <span class="input__control-btn-wrap">
+                                <button class="input__control-btn">Đăng Ký</button>
+                            </span>
+                        </div>
+
+                        <div class="footer__socials-group">
+                            <a href="" class="socials-button facebook">
+                                <i class="fab fa-facebook-f socials-icon facebook"></i>
+                            </a>
+                            <a href="" class="socials-button instagram">
+                                <i class="fab fa-instagram-square socials-icon instagram"></i>
+                            </a>
+                            <a href="" class="socials-button youtube">
+                                <i class="fa-brands fa-youtube socials-icon youtube"></i>
+                            </a>
+                            <a href="" class="socials-button twitter">
+                                <i class="fa-brands fa-twitter socials-icon twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <span class="copyright__author"> Bản quyền thuộc về <a class="copyright__author-link"
+                                    href="">Mobi Shop</a> Cung cấp bởi <a class="copyright__author-link" href="">VKU
+                                </a> </span>
+                        </div>
+                        <div class="col-xl-6">
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item">
+                                    <a class="footer__nav-item--link" href="">Trang Chủ</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a class="footer__nav-item--link" href="">Sản phẩm</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a class="footer__nav-item--link" href="">Kiến thức & phần mềm</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a class="footer__nav-item--link" href="">Chính sách bảo vệ</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a class="footer__nav-item--link" href="">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

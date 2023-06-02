@@ -248,7 +248,6 @@ i.list__category-item__like-icon-fill {
     margin-right: auto;
 }
 
-.list__category-item__origin-name {}
 
 .list__category-item__favourite {
     position: absolute;
@@ -436,9 +435,6 @@ i.list__category-item__like-icon-fill {
     font-size: 1.5rem;
 }
 
-p {
-    margin: 0 0 24px 0;
-}
 
 .policy__page-content strong {
     font-size: 1.6rem;
@@ -618,3 +614,127 @@ p {
 .button-default:hover {
     color: #d5d5d5;
 }
+
+/* Prodcut page */
+.main-product{
+    background-color: #f5f5f5;
+}
+.page__link {
+    line-height: 24px;
+    display: block;
+    font-size: 1.4rem;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.page__link-home {
+    text-decoration: none;
+    color: #323c42;
+}
+
+.all-product {
+    color: var(--yellow-color)
+}
+
+.filter__list-product--heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.page__link-home:hover {
+    color: var(--yellow-color);
+}
+
+.menu__list-product--heading {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 40px;
+    padding: 6px;
+    border-radius: 4px;
+
+
+}
+
+.menu__list-product-title {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    margin-left: 8px;
+}
+
+.menu__list-product-icon {
+    font-size: 1.4rem;
+    color: var(--white-color);
+}
+
+.list__product {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: 0px 3px 25px 0px rgba(31, 38, 67, 0.1);
+    box-shadow: 0px 3px 25px 0px rgba(31, 38, 67, 0.1);
+
+}
+
+.list__product-item {
+    line-height: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 26px;
+    display: block;
+}
+
+.list__product-item:hover {
+    background-color: var(--yellow-color);
+}
+
+.list__product-item:hover .list__product-item-link {
+    color: var(--white-color);
+}
+
+.list__product-item-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
+
+.main-container {
+    background-color: #f5f5f5;
+}
+
+.filter__product-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filter__product-item {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.filter__product {
+    background-color: var(--primary-color);
+    height: 30px;
+    margin-bottom: 16px;
+}
+
+.filter__product-item--link {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+}
+
+.filter__product-item:hover{
+    background-color: var(--yellow-color);
+}
+
+.product__list-item--end{
+    padding-bottom: 16px;
+}
+/* Prodcut page */

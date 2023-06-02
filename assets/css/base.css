@@ -76,6 +76,20 @@ html {
     padding-right: 10px;
 }
 
+.col-xl-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-xl-10-2{
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .col-xl-2 {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
