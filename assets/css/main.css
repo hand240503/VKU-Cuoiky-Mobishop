@@ -170,6 +170,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     margin-bottom: 6px;
+    text-decoration: none;
 }
 
 .list__category-item__price {
