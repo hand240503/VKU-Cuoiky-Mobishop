@@ -791,3 +791,78 @@ i.list__category-item__like-icon-fill {
 }
 
 /* Prodcut page */
+
+/* Knowledge page */
+
+.post__list-heading {
+    height: 42px;
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.post__list-title-link:hover {
+    color: var(--yellow-color);
+}
+
+.post__list-title-link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--white-color);
+    line-height: 42px;
+    display: block;
+    background-color: var(--primary-color);
+    width: 188px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.post__list-des {
+    padding-top: 18px;
+    font-size: 1.6rem;
+}
+
+.list__know-item-img {
+    border: 0 none;
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0 10px 0;
+}
+
+.list__know-item {
+    padding-bottom: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.list__know-heading-title {
+    margin: 12px;
+}
+
+.list__know-heading {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    width: 100%;
+}
+
+.list__know-item-title {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin: 10px 0 0 0;
+
+}
+
+.list__know-item-title:hover {
+    color: var(--yellow-color);
+}
+
+.list__know-item-des {
+    font-size: 1.4rem;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+/* Knowledge page */

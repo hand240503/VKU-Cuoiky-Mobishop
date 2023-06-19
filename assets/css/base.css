@@ -104,6 +104,20 @@ html {
     padding-right: 10px;
 }
 
+.col-xl-10-5{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-xl-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* ---------------------------------Header-base--------------------------------- */
 .header {
     height: 110px;
