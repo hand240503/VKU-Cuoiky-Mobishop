@@ -17,14 +17,10 @@ html {
 }
 
 /* Grid layout */
-.grid {
+/* .grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-}
-
-.grid__full-w {
-    width: 100%;
 }
 
 .row {
@@ -32,7 +28,7 @@ html {
     flex-wrap: wrap;
     margin-left: -5px;
     margin-right: -5px;
-}
+} */
 
 .d-flex {
     display: flex;
@@ -117,6 +113,7 @@ html {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 /* ---------------------------------Header-base--------------------------------- */
 .header {

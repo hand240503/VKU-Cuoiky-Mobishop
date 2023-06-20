@@ -12,41 +12,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Mobishop-Home</title>
 </head>
 
 <body>
     <div class="root">
         <header class="header">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="col-xl-3 header__logo-wrap">
+                    <div class="header__logo-wrap l-3 m-4 c-6">
                         <a href="index.html" class="header__logo-link">
                             <img src="./assets/img/new-logo.png" alt="" class="header__logo-img">
                         </a>
                     </div>
-                    <div class="header__search col-xl-7">
+                    <div class="header__search l-7 m-6 c-12">
                         <div class="header__search-input-wrap">
                             <input type="text" placeholder="Tìm kiếm sản phẩm..." class="header__search-input-field">
                             <i class="fa-solid fa-magnifying-glass header__search-input-icon"></i>
                         </div>
-                        <div class="header__search-contact-wrap">
+                        <div class="header__search-contact-wrap hide-on-tablet hide-on-mobile">
                             <div class="header__search-contact-phone">
                                 <img src="./assets/img/call.png" alt="" class="header__search-contact-img">
                             </div>
-                            <div class="header__search-contact-info">
+                            <div class="header__search-contact-info ">
                                 <span class="header__search-contact-title">Tổng đài hỗ trợ/ Hotline</span>
                                 <h4 class="header__contact-phone">0388 529 096</h4>
                             </div>
                         </div>
                     </div>
-                    <div class="header__user-info col-xl-2">
+                    <div class="header__user-info l-2 m-2 c-6">
                         <div class="header__user-wrap">
-                            <img src="./assets/img/user.png" alt="">
-                            <div class="user__info-wrap">
+                            <img src="./assets/img/user.png" alt="" class="hide-on-tablet ">
+                            <div class="user__info-wrap hide-on-tablet ">
                                 <span class="header__user-title">Xin chào!</span>
                                 <h4 class="header__user-logout">Đăng Xuất</h4>
                             </div>
@@ -64,9 +65,9 @@
 
             </div>
         </header>
-        <nav class="header__nav">
-            <div class="grid">
-                <div class="header__nav-wrap d-flex">
+        <nav class="header__nav hide-on-tablet hide-on-mobile ">
+            <div class="grid wide">
+                <div class="header__nav-wrap row">
                     <div class="header__nav-menu-title">
                         <span class="nav__menu-title">Danh mục sản phẩm</span>
                         <ul class="header___menu-title-list">
@@ -142,58 +143,62 @@
                 </div>
             </div>
         </nav>
-        <div class="slider">
+        <div class="slider ">
             <div class="slider__img">
                 <img src="./assets/img/banner.jpg" alt="" class="slider__img-item">
                 <div class="container">
                     <div class="slider__des">
-                        <span class="slider__des-new">All New Phones </span>
-                        <h1 class="slider__des-dis">Up to 25% discount</h1>
-                        <p class="slider__des-pas">for the respect of our client we manage to get for every one have
-                            been
-                            buy any product
-                            <br> from our site to get a 25% discount
-                        </p>
-                        <a class="buynow" href="product.html">Buy Now</a>
-                        <ul class="social_icon">
-                        </ul>
+                        <span class="slider__des-new">Điện thoại mới nhất </span>
+                        <h1 class="slider__des-dis">Giảm giá lên đến 25%</h1>
+                        <p class="slider__des-pas">Để tôn trọng khách hàng, chúng tôi mang đến ưu đãi giảm giá 25% cho
+                            tất cả khách hàng đã mua bất kỳ sản phẩm nào từ trang web của chúng tôi.</p>
+                        <div class="btn-wrap">
+                            <a class="buynow" href="product.html">Mua ngay</a>
+                            <ul class="social_icon">
+                                <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
+
         <div class="nav__category">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 m-2">
                         <img src="./assets/img/laptop.jpg" alt="" class="nav__category-item-img ">
                         <p class="nav__category-item-title">Laptop</p>
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 m-2">
                         <img src="./assets/img/redmi.jpg" alt="" class="nav__category-item-img ">
-                        <p class="nav__category-item-title">Điện thoại</p>
+                        <p class="nav__category-item-title">Phone</p>
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5  hide-on-tablet">
                         <img src="./assets/img/ipad.jpg" alt="" class="nav__category-item-img ">
                         <p class="nav__category-item-title">Máy tính bảng</p>
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 m-2">
                         <img src="./assets/img/dongho.jpg" alt="" class="nav__category-item-img ">
-                        <p class="nav__category-item-title">Đồng Hồ Thông Minh</p>
+                        <p class="nav__category-item-title">Smartwatch</p>
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 m-2">
                         <img src="./assets/img/card.jpg" alt="" class="nav__category-item-img ">
-                        <p class="nav__category-item-title">Linh kiện máy tính</p>
+                        <p class="nav__category-item-title">Linh kiện</p>
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 hide-on-tablet">
                         <img src="./assets/img/phukien.jpg" alt="" class="nav__category-item-img ">
                         <p class="nav__category-item-title">Phụ Kiện</p>
 
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 m-2">
                         <img src="./assets/img/tabpen.jpg" alt="" class="nav__category-item-img ">
-                        <p class="nav__category-item-title">Đồ thông minh</p>
+                        <p class="nav__category-item-title">Đồ dùng</p>
                     </div>
-                    <div class="nav__category-item  col-xl-1-5">
+                    <div class="nav__category-item  col-xl-1-5 hide-on-tablet">
                         <img src="./assets/img/pc.jpg" alt="" class="nav__category-item-img">
                         <p class="nav__category-item-title">PC</p>
                     </div>
@@ -203,14 +208,14 @@
         </div>
 
         <div class="list__category">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="list__category-heading-wrap">
                     <a href="" class="list__category-heading">ĐIỆN THOẠI THÔNG MINH</a>
                     <a href="" class="list__category-heading-more">Xem thêm</a>
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -248,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -286,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -324,7 +329,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -364,7 +369,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -402,7 +407,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -440,7 +445,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -478,7 +483,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/iphone.jpg');"> </div>
@@ -518,14 +523,14 @@
                     </div>
                 </div>
             </div>
-            <div class="grid">
+            <div class="grid wide">
                 <div class="list__category-heading-wrap">
                     <a href="" class="list__category-heading">MÁY TÍNH SÁCH TAY</a>
                     <a href="" class="list__category-heading-more">Xem thêm</a>
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -563,7 +568,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -601,7 +606,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -639,7 +644,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -679,7 +684,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -717,7 +722,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -755,7 +760,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -793,7 +798,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 col c-6">
                         <div class="list__category-item">
                             <div class="list__category-item-img"
                                 style="background-image: url('./assets/img/asus.jpg');"> </div>
@@ -836,7 +841,7 @@
 
         </div>
         <div class="blog">
-            <div class="grid">
+            <div class="grid wide">
                 <h2 class="blog__title">
                     <a href="" class="">KIẾN THỨC & PHẦN MỀM</a>
                 </h2>
@@ -848,9 +853,9 @@
             </div>
         </div>
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="l-4 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>MOBI SHOP</span>
                         </div>
@@ -862,7 +867,7 @@
                                     href="">hand.22itb061@vku.udn.vn</a></li>
                         </ul>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>THEO DÕI CHÚNG TÔI</span>
                         </div>
@@ -885,7 +890,7 @@
 
                         </ul>
                     </div>
-                    <div class="col-xl-5">
+                    <div class="l-5 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>NHẬN TIN KHUYẾN MÃI</span>
                         </div>
@@ -912,14 +917,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer__copyright">
+                <div class="footer__copyright tmp-4 ">
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="l-6">
                             <span class="copyright__author"> Bản quyền thuộc về <a class="copyright__author-link"
                                     href="">Mobi Shop</a> Cung cấp bởi <a class="copyright__author-link" href="">VKU
                                 </a> </span>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="l-6 hide-on-tablet hide-on-mobile">
                             <ul class="footer__nav-list">
                                 <li class="footer__nav-item">
                                     <a class="footer__nav-item--link" href="index.html">Trang Chủ</a>
@@ -940,7 +945,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </footer>
     </div>
