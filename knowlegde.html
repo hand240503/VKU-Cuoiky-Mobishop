@@ -12,41 +12,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="root">
         <header class="header">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="col-xl-3 header__logo-wrap">
+                    <div class="header__logo-wrap l-3 m-4 c-6">
                         <a href="index.html" class="header__logo-link">
                             <img src="./assets/img/new-logo.png" alt="" class="header__logo-img">
                         </a>
                     </div>
-                    <div class="header__search col-xl-7">
+                    <div class="header__search l-7 m-6 c-12">
                         <div class="header__search-input-wrap">
                             <input type="text" placeholder="Tìm kiếm sản phẩm..." class="header__search-input-field">
                             <i class="fa-solid fa-magnifying-glass header__search-input-icon"></i>
                         </div>
-                        <div class="header__search-contact-wrap">
+                        <div class="header__search-contact-wrap hide-on-mobile-tablet">
                             <div class="header__search-contact-phone">
                                 <img src="./assets/img/call.png" alt="" class="header__search-contact-img">
                             </div>
-                            <div class="header__search-contact-info">
+                            <div class="header__search-contact-info ">
                                 <span class="header__search-contact-title">Tổng đài hỗ trợ/ Hotline</span>
                                 <h4 class="header__contact-phone">0388 529 096</h4>
                             </div>
                         </div>
                     </div>
-                    <div class="header__user-info col-xl-2">
+                    <div class="header__user-info l-2 m-2 c-6">
                         <div class="header__user-wrap">
-                            <img src="./assets/img/user.png" alt="">
-                            <div class="user__info-wrap">
+                            <img src="./assets/img/user.png" alt="" class="hide-on-tablet ">
+                            <div class="user__info-wrap hide-on-tablet ">
                                 <span class="header__user-title">Xin chào!</span>
                                 <h4 class="header__user-logout">Đăng Xuất</h4>
                             </div>
@@ -64,9 +65,9 @@
 
             </div>
         </header>
-        <nav class="header__nav">
-            <div class="grid">
-                <div class="header__nav-wrap d-flex">
+        <nav class="header__nav hide-on-mobile-tablet ">
+            <div class="grid wide">
+                <div class="header__nav-wrap row">
                     <div class="header__nav-menu-title">
                         <span class="nav__menu-title">Danh mục sản phẩm</span>
                         <ul class="header___menu-title-list">
@@ -116,7 +117,7 @@
                     </div>
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
-                            <a href="index.html" class="header__nav-item-link">Trang
+                            <a href="index.html" class="header__nav-item-link ">Trang
                                 chủ</a>
                         </li>
                         <!-- <li class="header__nav-item">
@@ -127,8 +128,7 @@
                             <!-- <i class="fa-solid fa-caret-down header__nav-item-icon"></i> -->
                         </li>
                         <li class="header__nav-item">
-                            <a href="knowlegde.html" class="header__nav-item-link header__nav-item-link-active">Kiến
-                                thức & Phần mềm</a>
+                            <a href="knowlegde.html" class="header__nav-item-link header__nav-item-link-active">Kiến thức & Phần mềm</a>
                         </li>
                         <li class="header__nav-item">
                             <a href="policy.html" class="header__nav-item-link">Chính sách bảo hành</a>
@@ -141,11 +141,11 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </nav>
+
         <div class="content">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
                     <span class="page__link">
                         <a href="index.html" class="page__link-home">Trang chủ</a>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-3">
-                        <div class="post__list-heading">
+                        <div class="post__list-heading hide-on-mobile-tablet">
                             <div class="post__list-title">
                                 <a href="" class="post__list-title-link">Bài viết xem nhiều</a>
                             </div>
@@ -165,7 +165,7 @@
                         </div>
                         .
                     </div>
-                    <div class="col-xl-9">
+                    <div class="l-9 col">
                         <div class="row">
                             <div class="list__know-heading">
                                 <h1 class="list__know-heading-title">
@@ -174,8 +174,8 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-10-5">
-                                <div class="list__know-item-">
+                            <div class="l-6 col m-12">
+                                <div class="list__know-item-wrap">
                                     <img src="./assets/img/asus.jpg" alt="" class="list__know-item-img">
                                 </div>
                                 <a href="" class="list__know-item-title">Những điều cần làm ngay khi mua Laptop</a
@@ -183,8 +183,8 @@
                                 <p class="list__know-item-des">Tất tần tật những điều làm tăng hiệu năng máy khi vừa mua
                                     về giúp hiệu năng làm việc tăng 200%</p>
                             </div>
-                            <div class="col-xl-10-5">
-                                <div class="list__know-item-">
+                            <div class="l-6 col m-12">
+                                <div class="list__know-item-wrap">
                                     <img src="./assets/img/lenovo.png" alt="" class="list__know-item-img">
                                 </div>
                                 <a href="" class="list__know-item-title">Điều gì khiến bạn nên sở hữu 1 chiếc THINKBOOK </a
@@ -193,24 +193,24 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-4">
-                                <div class="list__know-item-">
+                            <div class="l-4 col">
+                                <div class="list__know-item-wrap">
                                     <img src="./assets/img/card.jpg" alt="" class="list__know-item-img">
                                 </div>
                                 <a href="" class="list__know-item-title">Những điền không thể bỏ qua về card đồ họa</a
                                     href="">
                                 <p class="list__know-item-des">Bạn cần biết điều này nếu muốn chiếc máy tính trở nên mạnh mẽ hơn</p>
                             </div>
-                            <div class="col-xl-4">
-                                <div class="list__know-item-">
+                            <div class="l-4 col">
+                                <div class="list__know-item-wrap">
                                     <img src="./assets/img/card.jpg" alt="" class="list__know-item-img">
                                 </div>
                                 <a href="" class="list__know-item-title">Những điền không thể bỏ qua về card đồ họa</a
                                     href="">
                                 <p class="list__know-item-des">Bạn cần biết điều này nếu muốn chiếc máy tính trở nên mạnh mẽ hơn</p>
                             </div>
-                            <div class="col-xl-4">
-                                <div class="list__know-item-">
+                            <div class="l-4 col">
+                                <div class="list__know-item-wrap">
                                     <img src="./assets/img/card.jpg" alt="" class="list__know-item-img">
                                 </div>
                                 <a href="" class="list__know-item-title">Những điền không thể bỏ qua về card đồ họa</a
@@ -242,9 +242,9 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="l-4 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>MOBI SHOP</span>
                         </div>
@@ -256,7 +256,7 @@
                                     href="">hand.22itb061@vku.udn.vn</a></li>
                         </ul>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>THEO DÕI CHÚNG TÔI</span>
                         </div>
@@ -279,7 +279,7 @@
 
                         </ul>
                     </div>
-                    <div class="col-xl-5">
+                    <div class="l-5 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>NHẬN TIN KHUYẾN MÃI</span>
                         </div>
@@ -306,14 +306,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer__copyright">
+                <div class="footer__copyright tmp-4 ">
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="l-6">
                             <span class="copyright__author"> Bản quyền thuộc về <a class="copyright__author-link"
                                     href="">Mobi Shop</a> Cung cấp bởi <a class="copyright__author-link" href="">VKU
                                 </a> </span>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="l-6 hide-on-mobile-tablet">
                             <ul class="footer__nav-list">
                                 <li class="footer__nav-item">
                                     <a class="footer__nav-item--link" href="index.html">Trang Chủ</a>
@@ -334,7 +334,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </footer>
     </div>

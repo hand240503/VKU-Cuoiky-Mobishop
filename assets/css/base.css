@@ -116,6 +116,10 @@ html {
 
 
 /* ---------------------------------Header-base--------------------------------- */
+
+.show-on-mobile{
+    display: none;
+}
 .header {
     height: 110px;
     padding: 10px 0 0 0;

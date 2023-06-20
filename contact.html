@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>MobiShop-Contact</title>
 </head>
@@ -21,32 +22,32 @@
 <body>
     <div class="root">
         <header class="header">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="col-xl-3 header__logo-wrap">
-                        <a class="header__logo-link">
+                    <div class="header__logo-wrap l-3 m-4 c-6">
+                        <a href="index.html" class="header__logo-link">
                             <img src="./assets/img/new-logo.png" alt="" class="header__logo-img">
                         </a>
                     </div>
-                    <div class="header__search col-xl-7">
+                    <div class="header__search l-7 m-6 c-12">
                         <div class="header__search-input-wrap">
                             <input type="text" placeholder="Tìm kiếm sản phẩm..." class="header__search-input-field">
                             <i class="fa-solid fa-magnifying-glass header__search-input-icon"></i>
                         </div>
-                        <div class="header__search-contact-wrap">
+                        <div class="header__search-contact-wrap hide-on-mobile-tablet">
                             <div class="header__search-contact-phone">
                                 <img src="./assets/img/call.png" alt="" class="header__search-contact-img">
                             </div>
-                            <div class="header__search-contact-info">
+                            <div class="header__search-contact-info ">
                                 <span class="header__search-contact-title">Tổng đài hỗ trợ/ Hotline</span>
                                 <h4 class="header__contact-phone">0388 529 096</h4>
                             </div>
                         </div>
                     </div>
-                    <div class="header__user-info col-xl-2">
+                    <div class="header__user-info l-2 m-2 c-6">
                         <div class="header__user-wrap">
-                            <img src="./assets/img/user.png" alt="">
-                            <div class="user__info-wrap">
+                            <img src="./assets/img/user.png" alt="" class="hide-on-tablet ">
+                            <div class="user__info-wrap hide-on-tablet ">
                                 <span class="header__user-title">Xin chào!</span>
                                 <h4 class="header__user-logout">Đăng Xuất</h4>
                             </div>
@@ -55,8 +56,7 @@
                                 <span class="header__cart-notice">0</span>
                                 <div class="header__cart-notice--cart">
                                     <img src="./assets/img/shopping-bag.png" alt="">
-                                    <p class="header__cart-notice-des">Không có sản phẩm nào trong giỏ hàng của bạn
-                                    </p>
+                                    <p class="header__cart-notice-des">Không có sản phẩm nào trong giỏ hàng của bạn</p>
                                 </div>
                             </div>
                         </div>
@@ -65,9 +65,9 @@
 
             </div>
         </header>
-        <nav class="header__nav">
-            <div class="grid">
-                <div class="header__nav-wrap d-flex">
+        <nav class="header__nav hide-on-mobile-tablet ">
+            <div class="grid wide">
+                <div class="header__nav-wrap row">
                     <div class="header__nav-menu-title">
                         <span class="nav__menu-title">Danh mục sản phẩm</span>
                         <ul class="header___menu-title-list">
@@ -117,11 +117,12 @@
                     </div>
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
-                            <a href="./index.html" class="header__nav-item-link">Trang chủ</a>
+                            <a href="index.html" class="header__nav-item-link ">Trang
+                                chủ</a>
                         </li>
                         <!-- <li class="header__nav-item">
-                                <a href="" class="header__nav-item-link">Giới thiệu</a>
-                            </li> -->
+                            <a href="" class="header__nav-item-link">Giới thiệu</a>
+                        </li> -->
                         <li class="header__nav-item">
                             <a href="product.html" class="header__nav-item-link">Sản Phẩm</a>
                             <!-- <i class="fa-solid fa-caret-down header__nav-item-icon"></i> -->
@@ -130,21 +131,20 @@
                             <a href="knowlegde.html" class="header__nav-item-link">Kiến thức & Phần mềm</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="./policy.html" class="header__nav-item-link">Chính
-                                sách bảo hành</a>
+                            <a href="policy.html" class="header__nav-item-link">Chính sách bảo hành</a>
                         </li>
                         <!-- <li class="header__nav-item">
-                                <a href="" class="header__nav-item-link">Tuyển dụng</a>
-                            </li> -->
+                            <a href="" class="header__nav-item-link">Tuyển dụng</a>
+                        </li> -->
                         <li class="header__nav-item">
-                            <a href="./contact.html" class="header__nav-item-link header__nav-item-link-active">Liên
+                            <a href="contact.html" class="header__nav-item-link header__nav-item-link-active">Liên
                                 hệ</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="grid">
+        <div class="grid wide">
             <div class="contact__header">
                 <div class="contact__header-container">
                     <div class="contact__header-row row">
@@ -170,7 +170,7 @@
                                 <h1 class="contact__page-heading">LIÊN HỆ</h1>
                             </div>
                             <div class="contact__page-gen">
-                                <div class="contact__page-content">
+                                <div class="contact__page-content l-4 col m-12 c-12">
                                     <div class="contact__page-item">
                                         <div class="contact__page-img">
                                             <i class="fa-sharp fa-solid fa-location-dot"></i>
@@ -199,32 +199,32 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="contact__page-login">
-                                    <form action="" class="contact__page-lg">
-                                        <div class="group__contact">
-                                            <div class="contact__page-name-email">
-                                                <fieldset class="form-group">
-                                                    <label for="">Họ và Tên</label>
-                                                    <em>*</em>
-                                                    <input type="text">
-                                                </fieldset>
-                                                <fieldset class="form-group">
-                                                    <label for="">Email</label>
-                                                    <em>*</em>
-                                                    <input type="text">
-                                                </fieldset>
-                                            </div>
-                                            <fieldset class="form-group">
-                                                <label for="">Nội Dung</label>
-                                                <em>*</em>
-                                                <textarea rows="10" class="content-area"></textarea>
-                                            </fieldset>
+                                <div class="l-8 contact__info-wrap">
+                                    <div class="row">
+                                        <div class="l-6 col m-12 c-12">
+                                            <span class="contact__page-title">Họ và Tên <em>*</em></span>
+                                            <textarea class="contact__page-info">
 
-                                            <div class="btn-contact">
-                                                <button type="submit" class="button-default">Gửi liên hệ</button>
-                                            </div>
+                                            </textarea>
                                         </div>
-                                    </form>
+                                        <div class="l-6 col m-12 c-12">
+                                            <span class="contact__page-title">Email <em>*</em></span>
+                                            <textarea class="contact__page-info">
+
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="l-12 col m-12 c-12">
+                                            <span class="contact__page-title">Nội dung <em>*</em></span>
+                                            <textarea class="contact__page-info-content">
+
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                    <a href="contact.html" class="contact__page-btn-wrap">
+                                        <span class="contact__page-btn">Gửi liên hệ</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -234,21 +234,21 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="l-4 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>MOBI SHOP</span>
                         </div>
                         <ul class="footer__list-info">
-                            <li class="footer__list-item">Copyright@ 2022 Mobi shop</li>
+                            <li class="footer__list-item">Copyright@ 2023 Mobi shop</li>
                             <li class="footer__list-item">Chứng nhận ĐKKD 1111111111 do sở KH & ĐT TP.Đà Nẵng cấp</li>
                             <li class="footer__list-item">Địa chỉ: Số 06, Thanh lương 9,Hòa Xuân,Cẩm Lệ,TP.Đà Nẵng</li>
                             <li class="footer__list-item">Điện thoại: <a href="">0388 529 096</a> - Email: <a
                                     href="">hand.22itb061@vku.udn.vn</a></li>
                         </ul>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="l-3 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>THEO DÕI CHÚNG TÔI</span>
                         </div>
@@ -271,7 +271,7 @@
 
                         </ul>
                     </div>
-                    <div class="col-xl-5">
+                    <div class="l-5 m-4 c-12 tmp-4">
                         <div class="footer__title-menu">
                             <span>NHẬN TIN KHUYẾN MÃI</span>
                         </div>
@@ -298,14 +298,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer__copyright">
+                <div class="footer__copyright tmp-4 ">
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="l-6">
                             <span class="copyright__author"> Bản quyền thuộc về <a class="copyright__author-link"
-                                    href="index.html">Mobi Shop</a> Cung cấp bởi <a class="copyright__author-link" href="">VKU
+                                    href="">Mobi Shop</a> Cung cấp bởi <a class="copyright__author-link" href="">VKU
                                 </a> </span>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="l-6 hide-on-mobile-tablet">
                             <ul class="footer__nav-list">
                                 <li class="footer__nav-item">
                                     <a class="footer__nav-item--link" href="index.html">Trang Chủ</a>
@@ -326,7 +326,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </footer>
 </body>

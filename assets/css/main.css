@@ -1,3 +1,7 @@
+.root {
+    overflow: hidden;
+}
+
 /* Slider */
 
 
@@ -111,11 +115,14 @@
 }
 
 .nav__category-item-title {
+    color: var(--black-color);
+    text-decoration: none;
     font-size: 1.2rem;
     margin: 4px;
     font-weight: 500;
     transition: all .3s ease-in-out;
     width: 100%;
+    display: block;
 }
 
 .nav__category-item-img {
@@ -549,6 +556,71 @@ i.list__category-item__like-icon-fill {
     text-align: center;
 }
 
+.contact__page-info {
+    background-color: #f7f7f7;
+    border-left: 2px solid rgb(37, 71, 83);
+    width: 100%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    resize: none;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.contact__page-info-content {
+    height: 100px;
+    background-color: #f7f7f7;
+    border-left: 2px solid rgb(37, 71, 83);
+    width: 100%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    resize: none;
+    outline: none;
+    padding: 10px 15px;
+    text-align: left;
+    direction: rtl
+}
+
+.contact__page-title {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.contact__page-title em {
+    color: red;
+}
+
+.contact__page-btn-wrap {
+    height: 40px;
+    width: 112px;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    text-decoration: none;
+
+}
+
+.contact__page-btn {
+    color: white;
+    line-height: 40px;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.contact__page-btn-wrap:hover {
+    background-color: var(--yellow-color);
+}
+.contact__page-btn-wrap:hover .contact__page-btn{
+    color: var(--white-color);
+}
+
 .fa-location-dot,
 .fa-question,
 .fa-phone {
@@ -577,10 +649,6 @@ i.list__category-item__like-icon-fill {
     width: 120%;
 }
 
-.contact__page-name-email {
-    display: flex;
-    justify-content: space-between;
-}
 
 .form-group {
     border: none;
