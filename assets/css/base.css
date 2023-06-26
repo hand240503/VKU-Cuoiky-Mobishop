@@ -908,6 +908,8 @@ html {
 
 .modal__nav-item-title {
     font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--black-color);
 }
 
 .modal__nav-item-icon {
